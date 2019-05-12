@@ -1,0 +1,195 @@
+:root {
+    --keyword-color: rgb(204, 50, 158);
+    --datatype-color: #9A76AA;
+    --declaration-color: rgb(109, 184, 255);
+    --comment-color: #808080;
+    --background-color: #2b2b2b;
+    --text-color: #a9b7c6;
+    --string-color: #72db64;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-display:fallback;
+  }
+  
+  .darcula {
+    font-family: monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .jumbotron {
+    height: 100vh;
+  }
+  
+  .keyword {
+    color: var(--keyword-color);
+  }
+  
+  .datatype {
+    color: var(--datatype-color);
+  }
+  
+  .declaration {
+    color: var(--declaration-color);
+  }
+  
+  .comment {
+    color: var(--comment-color);
+    font-style: italic;
+  }
+
+  .string{
+    color: var(--string-color);
+  }
+  
+  .navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-link{
+      margin:.2em;
+  }
+  .darknav {
+    background: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  #inicio {
+    display: flex;
+    align-items: center;
+  }
+  
+  .typewriter {
+    font-family: monospace;
+  }
+  
+  .typewriter p {
+    display: inline-block;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em;
+    /* Adjust as needed */
+    animation: typing 1.5s steps(40, end), blink-caret .55s step-end infinite;
+  }
+
+  div.dropdown-menu .nav-link{
+    color: black !important;
+  }
+  
+  /* The typing effect */
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 40%
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent
+    }
+    50% {
+      border-color: #B889E2;
+    }
+  }
+  
+  .card {
+    width: 15em;
+    margin: 1em 1em 1em 1em;
+  }
+  
+  /* Style all font awesome icons */
+  
+  .fab, .far {
+    padding: .5em;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  
+  .fab:focus, .far:focus {
+    opacity: 0.7;
+    color: black;
+  }
+  
+  .fa-linkedin-in {
+    background: #0077B5;
+    color: white;
+  }
+  
+  .fa-envelope {
+    background: #d93025;
+    color: white;
+  }
+  
+  .fa-codepen {
+    background: #333;
+    color: white;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .typewriter h1 {
+      font-size: 2em;
+    }
+    .typewriter p {
+      font-size: 1em;
+    }
+    .card {
+      width: auto;
+      margin: 1em 1em 1em 1em;
+    }
+  }
+
+  section#contact{
+    background-color: gainsboro;
+    padding: 2em;
+  }
+
+  section#contact a{    
+    margin: 1em;
+    border-radius: 25%;
+  }
+
+  section#contact a:hover{    
+    color: white;
+    text-decoration: none;
+  }
+
+  /* .card{
+    margin: 10px auto;
+  } */
+
+  .btn{    
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+
+  .card-text{
+    margin-bottom: 50px;
+  }

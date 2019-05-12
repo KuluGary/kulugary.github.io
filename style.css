@@ -145,7 +145,7 @@
     color: white;
   }
   
-  .contact {
+  .contacto {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,17 +164,17 @@
     }
   }
 
-  section#contact{
+  section#contacto{
     background-color: gainsboro;
     padding: 2em;
   }
 
-  section#contact a{    
+  section#contacto a{    
     margin: 1em;
     border-radius: 25%;
   }
 
-  section#contact a:hover{    
+  section#contacto a:hover{    
     color: white;
     text-decoration: none;
   }

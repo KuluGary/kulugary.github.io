@@ -193,3 +193,11 @@
   .card-text{
     margin-bottom: 50px;
   }
+
+  div.destacado{
+    border: 1px solid #ffc107;
+  }
+
+  h1{
+    margin-left: 3rem;
+  }

@@ -201,3 +201,14 @@
   h1{
     margin-left: 3rem;
   }
+
+  .multibutton {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .multibutton a {
+    position: relative !important;
+    left: auto;
+    
+  }

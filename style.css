@@ -45,11 +45,13 @@
   }
   
   .navbar {
-    position: fixed;
+    position: sticky;
     z-index: 1000;
     top: 0;
     width: 100%;
   }
+
+  
   
   .nav-link{
       margin:.2em;
@@ -151,6 +153,10 @@
     justify-content: space-around;
   }
   
+  .mobile {
+    display: none !important;
+  }
+
   @media only screen and (max-width: 600px) {
     .typewriter h1 {
       font-size: 2em;
@@ -161,6 +167,14 @@
     .card {
       width: auto;
       margin: 1em 1em 1em 1em;
+    }
+
+    .jumbotron, .btn, .desktop {
+      display: none !important;
+    }
+
+    .mobile {
+      display: block !important;
     }
   }
 
